@@ -1,13 +1,193 @@
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-04-18.nt, model has 1705 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-04-27.nt, model has 1801 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-05-04.nt, model has 1868 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-05-23.nt, model has 2111 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-05-30.nt, model has 2243 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-06-09.nt, model has 2368 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-06-13.nt, model has 2481 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-06-21.nt, model has 2606 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-06-27.nt, model has 2702 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:67 - Added spreaker-2016-07-05.nt, model has 2819 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:71 - Added transcripts, model has 2942 triples 
-2016-11-16 15:17:56 INFO  SecklowMain:74 - Annotating....
-2016-11-16 15:18:17 INFO  SecklowIndexReader:123 - OK!
+2017-02-09 17:55:41 INFO  SecklowDataHubMngr:89 - Reading entities from file ./docs/datahub_entities.json
+2017-02-09 17:55:42 INFO  SecklowMain:69 - Added spreaker-2016-04-18.nt, model has 1705 triples 
+2017-02-09 17:55:42 INFO  SecklowMain:69 - Added spreaker-2016-04-27.nt, model has 1801 triples 
+2017-02-09 17:55:42 INFO  SecklowMain:69 - Added spreaker-2016-05-04.nt, model has 1868 triples 
+2017-02-09 17:55:42 INFO  SecklowMain:69 - Added spreaker-2016-05-23.nt, model has 2111 triples 
+2017-02-09 17:55:42 INFO  SecklowMain:69 - Added spreaker-2016-05-30.nt, model has 2243 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:69 - Added spreaker-2016-06-09.nt, model has 2368 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:69 - Added spreaker-2016-06-13.nt, model has 2481 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:69 - Added spreaker-2016-06-21.nt, model has 2606 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:69 - Added spreaker-2016-06-27.nt, model has 2702 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:69 - Added spreaker-2016-07-05.nt, model has 2819 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:73 - Added transcripts, model has 2942 triples 
+2017-02-09 17:55:43 INFO  SecklowMain:77 - Annotating....
+2017-02-09 17:55:43 INFO  SecklowIndexReader:76 - Count 0/432...
+2017-02-09 17:56:01 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:56:04 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 17:56:14 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:56:20 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:56:23 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 17:56:30 INFO  SecklowIndexReader:76 - Count 10/432...
+2017-02-09 17:56:33 INFO  SecklowIndexReader:154 - IKEA, ikea, sim=1.0
+2017-02-09 17:56:36 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 17:56:53 INFO  SecklowIndexReader:154 - Elixir, elixir, sim=1.0
+2017-02-09 17:56:55 INFO  SecklowIndexReader:76 - Count 20/432...
+2017-02-09 17:57:08 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:57:15 INFO  SecklowIndexReader:76 - Count 30/432...
+2017-02-09 17:57:16 INFO  SecklowIndexReader:76 - Count 40/432...
+2017-02-09 17:57:19 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:57:22 INFO  SecklowIndexReader:154 - Social media, social-media, sim=0.9166666666666666
+2017-02-09 17:57:27 INFO  SecklowIndexReader:76 - Count 50/432...
+2017-02-09 17:57:31 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:57:33 INFO  SecklowIndexReader:76 - Count 60/432...
+2017-02-09 17:57:39 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 17:57:48 INFO  SecklowIndexReader:154 - Asda, asda, sim=1.0
+2017-02-09 17:57:50 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 17:58:14 INFO  SecklowIndexReader:154 - Aldi, aldi, sim=1.0
+2017-02-09 17:58:25 INFO  SecklowIndexReader:154 - Emberton, emberton, sim=1.0
+2017-02-09 17:58:26 INFO  SecklowIndexReader:154 - Emberton, emberton, sim=1.0
+2017-02-09 17:58:27 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:58:31 INFO  SecklowIndexReader:154 - Asda, asda, sim=1.0
+2017-02-09 17:58:37 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:58:40 INFO  SecklowIndexReader:76 - Count 70/432...
+2017-02-09 17:58:40 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:58:47 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 17:59:05 INFO  SecklowIndexReader:76 - Count 80/432...
+2017-02-09 17:59:33 INFO  SecklowIndexReader:154 - Milton Keynes Theatre, milton keynes theatre, sim=1.0
+2017-02-09 17:59:45 INFO  SecklowIndexReader:154 - Ousedale School, ousedale school, sim=1.0
+2017-02-09 17:59:51 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:00:00 INFO  SecklowIndexReader:76 - Count 90/432...
+2017-02-09 18:00:07 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:00:17 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:00:19 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:00:25 INFO  SecklowIndexReader:154 - Next plc, next plc, sim=1.0
+2017-02-09 18:00:31 INFO  SecklowIndexReader:76 - Count 100/432...
+2017-02-09 18:00:35 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:00:38 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:00:47 INFO  SecklowIndexReader:154 - Bletchley Park, bletchley park, sim=1.0
+2017-02-09 18:00:58 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:01:00 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:01:18 INFO  SecklowIndexReader:154 - Social media, social-media, sim=0.9166666666666666
+2017-02-09 18:01:22 INFO  SecklowIndexReader:76 - Count 110/432...
+2017-02-09 18:01:22 INFO  SecklowIndexReader:76 - Count 120/432...
+2017-02-09 18:01:27 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:01:38 INFO  SecklowIndexReader:154 - Social media, social-media, sim=0.9166666666666666
+2017-02-09 18:01:43 INFO  SecklowIndexReader:154 - Primark, primark, sim=1.0
+2017-02-09 18:01:53 INFO  SecklowIndexReader:76 - Count 130/432...
+2017-02-09 18:02:01 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:02:07 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:02:09 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:02:18 INFO  SecklowIndexReader:154 - Cineworld, cineworld, sim=1.0
+2017-02-09 18:02:23 INFO  SecklowIndexReader:154 - Crime, crime, sim=1.0
+2017-02-09 18:02:24 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:02:34 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:02:37 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:02:46 INFO  SecklowIndexReader:76 - Count 140/432...
+2017-02-09 18:02:54 INFO  SecklowIndexReader:154 - Wavendon, wavendon, sim=1.0
+2017-02-09 18:02:55 INFO  SecklowIndexReader:154 - Wavendon, wavendon, sim=1.0
+2017-02-09 18:03:01 INFO  SecklowIndexReader:76 - Count 150/432...
+2017-02-09 18:03:07 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:03:10 INFO  SecklowIndexReader:154 - Asda, asda, sim=1.0
+2017-02-09 18:03:16 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:03:26 INFO  SecklowIndexReader:76 - Count 160/432...
+2017-02-09 18:03:52 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:03:56 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:04:10 INFO  SecklowIndexReader:154 - Central Milton Keynes, central milton keynes, sim=1.0
+2017-02-09 18:04:10 INFO  SecklowIndexReader:154 - IKEA, ikea, sim=1.0
+2017-02-09 18:04:15 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:04:24 INFO  SecklowIndexReader:76 - Count 170/432...
+2017-02-09 18:04:36 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:04:43 INFO  SecklowIndexReader:76 - Count 180/432...
+2017-02-09 18:04:50 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:04:57 INFO  SecklowIndexReader:76 - Count 190/432...
+2017-02-09 18:05:02 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:05:05 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:05:43 INFO  SecklowIndexReader:76 - Count 200/432...
+2017-02-09 18:05:43 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:05:47 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:00 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:02 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:06:10 INFO  SecklowIndexReader:154 - Saint Peter, saint peter, sim=1.0
+2017-02-09 18:06:14 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:18 INFO  SecklowIndexReader:76 - Count 210/432...
+2017-02-09 18:06:20 INFO  SecklowIndexReader:154 - Wavendon, wavendon, sim=1.0
+2017-02-09 18:06:20 INFO  SecklowIndexReader:154 - Wavendon, wavendon, sim=1.0
+2017-02-09 18:06:21 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:30 INFO  SecklowIndexReader:154 - Fenny Stratford, fenny stratford, sim=1.0
+2017-02-09 18:06:32 INFO  SecklowIndexReader:154 - Fenny Stratford, fenny stratford, sim=1.0
+2017-02-09 18:06:40 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:43 INFO  SecklowIndexReader:154 - Crime, crime, sim=1.0
+2017-02-09 18:06:48 INFO  SecklowIndexReader:154 - Asda, asda, sim=1.0
+2017-02-09 18:06:52 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:55 INFO  SecklowIndexReader:76 - Count 220/432...
+2017-02-09 18:06:55 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:06:58 INFO  SecklowIndexReader:76 - Count 230/432...
+2017-02-09 18:07:13 INFO  SecklowIndexReader:154 - Social media, social-media, sim=0.9166666666666666
+2017-02-09 18:07:13 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:07:32 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:07:47 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:07:47 INFO  SecklowIndexReader:76 - Count 240/432...
+2017-02-09 18:07:56 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:07:58 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:08:05 INFO  SecklowIndexReader:76 - Count 250/432...
+2017-02-09 18:08:05 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:08:35 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:08:42 INFO  SecklowIndexReader:76 - Count 260/432...
+2017-02-09 18:08:57 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:08:58 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:09:20 INFO  SecklowIndexReader:154 - Social media, social-media, sim=0.9166666666666666
+2017-02-09 18:09:30 INFO  SecklowIndexReader:154 - Wolverton, wolverton, sim=1.0
+2017-02-09 18:09:40 INFO  SecklowIndexReader:154 - Wolverton, wolverton, sim=1.0
+2017-02-09 18:09:42 INFO  SecklowIndexReader:154 - Wolverton, wolverton, sim=1.0
+2017-02-09 18:10:00 INFO  SecklowIndexReader:154 - Newport Pagnell, newport pagnell, sim=1.0
+2017-02-09 18:10:02 INFO  SecklowIndexReader:154 - Newport Pagnell, newport pagnell, sim=1.0
+2017-02-09 18:10:05 INFO  SecklowIndexReader:154 - Social media, social-media, sim=0.9166666666666666
+2017-02-09 18:10:11 INFO  SecklowIndexReader:76 - Count 270/432...
+2017-02-09 18:10:39 INFO  SecklowIndexReader:76 - Count 280/432...
+2017-02-09 18:10:39 INFO  SecklowIndexReader:76 - Count 290/432...
+2017-02-09 18:10:44 INFO  SecklowIndexReader:154 - Milton Keynes Theatre, milton keynes theatre, sim=1.0
+2017-02-09 18:10:46 INFO  SecklowIndexReader:154 - Crime, crime, sim=1.0
+2017-02-09 18:10:47 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:10:57 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:11:16 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:11:18 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:11:25 INFO  SecklowIndexReader:76 - Count 300/432...
+2017-02-09 18:11:36 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:11:42 INFO  SecklowIndexReader:154 - Bletchley Park, bletchley park, sim=1.0
+2017-02-09 18:12:01 INFO  SecklowIndexReader:154 - Shenley Brook End, shenley brook end, sim=1.0
+2017-02-09 18:12:03 INFO  SecklowIndexReader:154 - Shenley Brook End, shenley brook end, sim=1.0
+2017-02-09 18:12:04 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:12:09 INFO  SecklowIndexReader:76 - Count 310/432...
+2017-02-09 18:12:15 INFO  SecklowIndexReader:154 - Crime, crime, sim=1.0
+2017-02-09 18:12:24 INFO  SecklowIndexReader:76 - Count 320/432...
+2017-02-09 18:12:24 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:12:28 INFO  SecklowIndexReader:76 - Count 330/432...
+2017-02-09 18:12:43 INFO  SecklowIndexReader:154 - Crime, crime, sim=1.0
+2017-02-09 18:12:43 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:13:02 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:13:05 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:13:11 INFO  SecklowIndexReader:76 - Count 340/432...
+2017-02-09 18:13:12 INFO  SecklowIndexReader:154 - Milton Keynes Museum, milton keynes museum, sim=1.0
+2017-02-09 18:13:23 INFO  SecklowIndexReader:154 - Wolverton, wolverton, sim=1.0
+2017-02-09 18:13:23 INFO  SecklowIndexReader:154 - Wolverton, wolverton, sim=1.0
+2017-02-09 18:13:23 INFO  SecklowIndexReader:154 - Wolverton, wolverton, sim=1.0
+2017-02-09 18:13:27 INFO  SecklowIndexReader:76 - Count 350/432...
+2017-02-09 18:13:52 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:13:59 INFO  SecklowIndexReader:76 - Count 360/432...
+2017-02-09 18:14:18 INFO  SecklowIndexReader:76 - Count 370/432...
+2017-02-09 18:14:18 INFO  SecklowIndexReader:76 - Count 380/432...
+2017-02-09 18:14:20 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:14:36 INFO  SecklowIndexReader:154 - Warrington, warrington, sim=1.0
+2017-02-09 18:14:37 INFO  SecklowIndexReader:154 - Warrington, warrington, sim=1.0
+2017-02-09 18:14:40 INFO  SecklowIndexReader:76 - Count 390/432...
+2017-02-09 18:14:47 INFO  SecklowIndexReader:76 - Count 400/432...
+2017-02-09 18:15:00 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:15:02 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:15:05 INFO  SecklowIndexReader:154 - Asda, asda, sim=1.0
+2017-02-09 18:15:09 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:15:10 INFO  SecklowIndexReader:76 - Count 410/432...
+2017-02-09 18:15:19 INFO  SecklowIndexReader:154 - Stantonbury, stantonbury, sim=1.0
+2017-02-09 18:15:32 INFO  SecklowIndexReader:154 - Stantonbury, stantonbury, sim=1.0
+2017-02-09 18:15:34 INFO  SecklowIndexReader:154 - Stantonbury, stantonbury, sim=1.0
+2017-02-09 18:15:44 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:15:58 INFO  SecklowIndexReader:154 - Campbell Park, campbell park, sim=1.0
+2017-02-09 18:16:12 INFO  SecklowIndexReader:154 - Campbell Park, campbell park, sim=1.0
+2017-02-09 18:16:12 INFO  SecklowIndexReader:154 - Campbell Park, campbell park, sim=1.0
+2017-02-09 18:16:15 INFO  SecklowIndexReader:154 - Campbell Park, campbell park, sim=1.0
+2017-02-09 18:16:24 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:16:37 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:16:51 INFO  SecklowIndexReader:76 - Count 420/432...
+2017-02-09 18:17:02 INFO  SecklowIndexReader:154 - Employment, employment, sim=1.0
+2017-02-09 18:17:03 INFO  SecklowIndexReader:154 - Health, health, sim=1.0
+2017-02-09 18:17:06 INFO  SecklowIndexReader:76 - Count 430/432...
+2017-02-09 18:17:06 INFO  SecklowIndexReader:179 - OK!

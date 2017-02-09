@@ -56,6 +56,8 @@ public class SecklowIndexer {
 			  
 			  for (int i = 0; i < resources.size(); i++){
 				  INDEXER .put(resources.get(i));
+				  
+//				  INDEXER .putRaw(resources.get(i).getUri(), resources.get(i).getTitle(), resources.get(i).getDescription(), resources.get(i).getContent());
 			  }
 			} catch (IOException e) {
 			    log.error("",e);

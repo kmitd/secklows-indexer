@@ -3,6 +3,7 @@ package app;
 
 import java.io.File;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.riot.Lang;
@@ -19,8 +20,7 @@ public class SecklowMain {
 	
 	public static void main(String[] args){
 		
-	//	indexData("docs/nt");
-		
+//		indexData("docs/nt");
 		
 		
 		annotate("docs/nt");
@@ -52,6 +52,8 @@ public class SecklowMain {
 		
 	}
 	
+	
+	
 	public static void annotate (String path){
 		
 		SecklowIndexReader sReader = new SecklowIndexReader();	
@@ -70,12 +72,14 @@ public class SecklowMain {
 		model.add(RDFDataMgr.loadModel("./docs/transcripts.nt", Lang.NT));
 		log.info("Added transcripts, model has {} triples ", model.size());
 		
+		//addDHentities(model);
 		
 		log.info("Annotating....");	
 		
 		sReader.readIndexAdnWriteJson(model);
 	
 	}
+
 	
 	
 	
